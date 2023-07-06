@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #d0cfc2;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(200, 201, 187);
 }
 
 .App-link {
@@ -35,4 +35,23 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.MyHeader {
+  background-color: rgba(176, 176, 176, 0.716);
+  font-family: Kanit, Sarabun, Thonburi, Tahoma, sana-serif;
+  text-align: center;
+}
+
+.My-content {
+  font-family: Kanit, Sarabun, Thonburi, Tahoma, sana-serif;
+  text-align: center;
+  background-color: rgba(207, 196, 217, 0.716);
+  font-size: larger;
+  padding: 0em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-radius: 15px;
+  border: 5px solid rgba(255, 255, 255, 0.716);
 }
